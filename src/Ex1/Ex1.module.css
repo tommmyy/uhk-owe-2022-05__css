@@ -1,0 +1,17 @@
+.root {
+  outline: none;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: var(--primary);
+  border: 4px solid var(--primary);
+  color: white;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+.root:hover,
+.active {
+  color: var(--primary);
+  background-color: transparent;
+}

@@ -1,0 +1,11 @@
+:root {
+  --primary: #00f;
+}
+html,
+body {
+  min-height: 100%;
+}
+.App {
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  text-align: center;
+}
